@@ -1,0 +1,54 @@
+{
+ 
+"models":[
+{
+    "model":"gpt-3.5-turbo",
+    "api-key":"<API-KEY-HERE>"
+},
+{
+    "model":"gpt-4o-mini",
+    "api-key":"<API-KEY-HERE>"
+},
+{
+    "model":"gemini-pro",
+    "api-key":"<API-KEY-HERE>"
+},
+{
+    "model":"llama3-70b-8192",
+    "api-key":"<API-KEY-HERE>"
+},
+{
+    "model":"mistral-large-2407",
+    "api-key":"<API-KEY-HERE>"
+},
+{
+    "model":"gemma2-9b-it",
+    "api-key":"<API-KEY-HERE>"
+}
+
+],
+"vector-db":[
+    "ObjectBox",
+    "chroma",
+    "Faiss"
+
+],
+"embeddings":[
+    
+    "GooglePalmEmbeddings"
+ 
+
+],
+"apis":[
+    {"google-api-key":"<API-KEY-HERE>"},
+    {"OpenAi-api-key":"<API-KEY-HERE>"},
+    {"Mistral-api-key":"<API-KEY-HERE>"},
+    {"groq-api-key":"<API-KEY-HERE>"},
+    {"Google-Cse-Id":"<API-KEY-HERE>"}
+
+]
+}
+
+
+
+

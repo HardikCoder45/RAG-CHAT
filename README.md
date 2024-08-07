@@ -1,34 +1,32 @@
-Here's an updated README.md file with additional instructions for adding API keys for all LLMs and mentioning the requirements.txt file installation.
+ 
 
-markdown Copy code
-
-RAG-CHAT
+#RAG-CHAT
 Welcome to the RAG Chatbot project! This project is a Streamlit-based intelligent assistant powered by Retrieval-Augmented Generation (RAG). It leverages multiple Large Language Models (LLMs), embedding models, and vector databases to provide insightful answers from documents or web pages.
 
-Features
+#Features
 LLM Models Used:
 gemma2 90b
 mistral large 2407
 llama3 70b
 chat gpt 3.5 turbo
 chat gpt 4o mini
-Embedding Models:
+##Embedding Models:
 text-embedding-3-small
 Google Palm Embeddings
-Vector Databases:
+##Vector Databases:
 FAISS
 Chroma
 Object Box
-Ways to Retrieve Information:
+##Ways to Retrieve Information:
 Agent
 Document Retrieval Chain
-Input Types:
+##Input Types:
 PDF
 Web Page
 Getting Started
 To get started with the RAG Chatbot, follow these steps:
 
-Prerequisites
+##Prerequisites
 Python 3.8 or higher
 Streamlit
 Install the required Python libraries:
